@@ -13,4 +13,4 @@ new Vue({
   el: `#app`,
   pinia,
   render: (h) => h(CThemeProvider, [h(App)]),
-})
+}).$mount('#app')
